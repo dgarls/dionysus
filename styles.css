@@ -28,6 +28,7 @@ body {
     font-family: 'Lora', serif;
     background-image: linear-gradient(to bottom, #3A5A40, #344E41);
     text-align: center;
+    color: white;
 }
 
 span{
@@ -108,7 +109,9 @@ a#top-nav:hover {
 }
 
 #significance {
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+    
+}
+
+#example{
+
 }
