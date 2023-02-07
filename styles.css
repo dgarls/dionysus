@@ -1,46 +1,110 @@
+/*
+COLOR PALLETTE:
+
+GREEN:
+#DAD7CD
+#A3B18A
+#588157
+#3A5A40
+#344E41
+
+RED:
+#C1B3AF
+#A88F91
+#8F6C74
+#764856
+#5D2438
+#44001A
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
     min-height: 100%;
     margin: 0;
     font-family: 'Nanum Gothic', sans-serif;
-    background-color: white;
+    background-image: linear-gradient(to bottom, #3A5A40, #344E41);
     text-align: center;
 }
 
-.panel{
+span{
+    position: fixed;
+}
+
+a#home {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #C1B3AF;
+    background-color: #44001A;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a#home:hover {
+    color: #8F6C74;
+}
+
+.panel {
     min-height: 100vh;
     height: 100%;
     width: 100%;
     margin: 0;
-    border: 2px black solid;
 }
 
 #front-page {
     color: rgb(255, 255, 255);
     margin-top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
     width: 100vw;
     background-image: url("images/dionysus-alt.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: 15px center;
 }
 
-#story{
+#title {
+    font-size: 50px;
+    margin-top: 5vh;
+    color: white;
+}
+
+#top-bar {
+    display: table;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a#top-nav {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a#top-nav:hover {
+    color: #A88F91
+}
+
+#story {
     min-height: 100vh;
     height: 100vh;
 }
 
-#significance{
-    background-image: url(images/Dionysus.jpg);
+#significance {
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-}
-
-#example{
-    
 }
