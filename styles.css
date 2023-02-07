@@ -72,9 +72,11 @@ a#home:hover {
     font-size: 50px;
     margin-top: 5vh;
     color: white;
+    user-select: none;
 }
 
 #top-bar {
+    font-size: 15px;
     display: table;
     margin: 0 auto;
 }
@@ -91,14 +93,16 @@ li {
 a#top-nav {
     color: white;
     text-decoration: none;
-    transition: 0.2s;
+    transition: color 0.2s ease-in-out;
+    padding: 7px;
 }
 
 a#top-nav:hover {
-    color: #A88F91
+    color: #C1B3AF;
 }
 
 #story {
+    box-shadow: 0 -50px 10px 10px #385740;
     min-height: 100vh;
     height: 100vh;
 }
