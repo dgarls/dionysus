@@ -72,10 +72,14 @@ a#home:hover {
 }
 
 #title {
-    font-size: 50px;
-    margin-top: 5vh;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
     color: white;
     user-select: none;
+    font-size: 50px;
 }
 
 #top-bar {
@@ -117,7 +121,7 @@ p {
 .align{
     display: flex;
     gap: 5vw;
-    margin-top: 15vh;
+    margin-top: 20vh;
     justify-content: space-evenly;
     align-items: center;
     margin-left: 5vw;
@@ -126,7 +130,6 @@ p {
 
 #story-header {
     width: 100%;
-    margin-top: 10vh;
 }
 
 #story {
@@ -135,8 +138,15 @@ p {
     box-shadow: 0 -50px 20px 10px #385740;
 }
 
+#poem{
+    font-size: 3.2vh;
+}
+
+#poem-part{
+    margin-top: 5vh;
+}
 
 img {
-    height: 40vh;
-    width: auto;
+    height: auto;
+    width: 45vw;
 }
