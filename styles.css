@@ -31,7 +31,7 @@ body {
     color: #d4d2ca;
 }
 
-span{
+span {
     position: fixed;
 }
 
@@ -57,6 +57,7 @@ a#home:hover {
     height: 100%;
     width: 100%;
     margin: 0;
+    display: absolute;
 }
 
 #front-page {
@@ -103,39 +104,37 @@ a#top-nav:hover {
     color: #C1B3AF;
 }
 
-p{
+p {
     font-size: 3.2vh;
     width: 50vw;
 }
 
-.break{
-    flex-basis: 100%;
-    height: 0;
-}
-
-.info{
-    min-height: 100vh;
-    height: 100vh;
+.align{
     display: flex;
-    flex-wrap: wrap;
+    margin-top: 15vh;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-#story-header{
+#story-header {
+    width: 100%;
+    margin-top: 10vh;
 }
 
 #story {
+    height: auto;
+    min-height: 100vh;
     box-shadow: 0 -50px 20px 10px #385740;
 }
 
-#bacchus-painting{
-    height: 25vh;
+#story-text{
+}
+
+#bacchus-painting {
+    height: 40vh;
     width: auto;
 }
 
-#significance {
-    
-}
+#significance {}
 
-#example{
-
-}
+#example {}
