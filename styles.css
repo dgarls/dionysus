@@ -28,7 +28,7 @@ body {
     font-family: 'Lora', serif;
     background-image: linear-gradient(to bottom, #3A5A40, #344E41);
     text-align: center;
-    color: white;
+    color: #d4d2ca;
 }
 
 span{
@@ -49,6 +49,7 @@ a#home {
 
 a#home:hover {
     color: #8F6C74;
+    background-color: #330014;
 }
 
 .panel {
@@ -102,10 +103,33 @@ a#top-nav:hover {
     color: #C1B3AF;
 }
 
-#story {
-    box-shadow: 0 -50px 20px 10px #385740;
+p{
+    font-size: 3.2vh;
+    width: 50vw;
+}
+
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.info{
     min-height: 100vh;
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#story-header{
+}
+
+#story {
+    box-shadow: 0 -50px 20px 10px #385740;
+}
+
+#bacchus-painting{
+    height: 25vh;
+    width: auto;
 }
 
 #significance {
