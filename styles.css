@@ -104,6 +104,10 @@ a#top-nav:hover {
     color: #C1B3AF;
 }
 
+h2{
+    font-size: 5vh;
+}
+
 p {
     text-align: left;
     font-size: 2vh;
@@ -136,7 +140,3 @@ img {
     height: 40vh;
     width: auto;
 }
-
-#significance {}
-
-#example {}
