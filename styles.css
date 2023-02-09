@@ -130,8 +130,17 @@ h2{
     flex-direction: row;
 }
 
+#story{
+    border: 1px dotted rgba(0, 0, 0, 0);
+    box-shadow: 0 -10px 40px 50px #708666;
+}
+
 #story-header {
     width: 100%;
+}
+
+#h2sig{
+    margin-top: 0;
 }
 
 #poem{
@@ -152,7 +161,7 @@ img {
 
 p {
     text-align: left;
-    flex-grow: 2;
+    flex-grow: 3;
     font-size: 2vw;
     width: 45vw;
 }
