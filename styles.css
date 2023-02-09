@@ -144,12 +144,17 @@ h2{
 }
 
 #poem{
+    margin-top: 0;
+    display: inline-flex;
+    padding: 2vh;
     font-size: 3.2vh;
+    border: 3px solid #A88F91;
+    background-color: #c1b3af37
 }
 
 #poem-part{
     height: 40vh;
-    margin-top: 7vh;
+    margin-top: 8vh;
 }
 
 img {
@@ -162,6 +167,6 @@ img {
 p {
     text-align: left;
     flex-grow: 3;
-    font-size: 2vw;
+    font-size: 1.7vw;
     width: 45vw;
 }
